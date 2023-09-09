@@ -1,0 +1,19 @@
+<script>
+let num = prompt("Введите число n = ");
+let temp = 0;
+let temp2 = "Список совершенный чисел: ";
+for (var j = 1; j <= num; j++ ){
+    let temp = 0;
+    for(var i=1;i<=j/2;i++) {
+        if(j%i === 0) {
+            temp += i;
+              }
+         }
+        if(temp === j && temp !== 0) {
+            temp2 = temp2 + temp + ", ";
+            }  
+        else {
+            } 
+        }
+alert(temp2);
+</script>
